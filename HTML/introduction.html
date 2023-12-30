@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 1</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="a">
+      <h1>Introduction of HTML</h1>
+      <p>
+        HTML stands for hypertext markup language.<b style="color: brown"
+          >Markup language is a system for describing text in a way that is
+          syntactically distinguishable for the text itself.</b
+        >It is used for creating web pages.It is used to structure content on
+        the web and is an essential building block for creating websites.
+      </p>
+    </div>
+    <div class="b">
+      <h1>Note:</h1>
+      <li>!DOCTYPE html defines that this document is a html5 document.</li>
+      <li>html is root element of a html page.</li>
+      <li>head contains meta information of a html page.</li>
+      <li>body contains all visible content of a html page.</li>
+    </div>
+    <h1>HTML Headings</h1>
+    <div class="c">
+      <div class="c1">
+        <h1>NAME:Md shah aman patwary.</h1>
+        <h2>Address:ward-66,Dhaka,Bangladesh.</h2>
+        <h3>Education: B.Sc in computer science and engineering</h3>
+        <h4>Cgpa:3.22 out of 4</h4>
+        <h5>
+          Institution:<a
+            title="click to see more"
+            style="text-decoration: none"
+            href="https://www.dhakacitycollege.edu.bd"
+            >Dhaka city college.</a
+          >
+        </h5>
+        <li>Used anchor tag to create link.</li>
+        <li>used title attribute to show extra information</li>
+        <h6>INTEREST:Web design and development.</h6>
+      </div>
+      <div class="c2">
+        <img
+          src="../dcc.jpeg"
+          alt="Dhaka city college"
+          width="500"
+          height="350"
+        />
+        <li>used img tag to view the picture.</li>
+      </div>
+    </div>
+    <h1>HTML attributes:</h1>
+    <p>
+      It is used to show additional data like:href,src,style,alt,
+      type,placeholder,height,width,lang.
+    </p>
+    <p>Contains a name and a value</p>
+    <hr />
+    <h1>HTML Formatting Elements:</h1>
+    <li><b>Bold text using b tag.</b></li>
+    <li><strong>Important text using strong tag.</strong></li>
+    <li><i>Italic font text using i tag.</i></li>
+    <li><em>Emphasized text using em tag.</em></li>
+    <li><mark>Marked text using mark tag.</mark></li>
+    <li><del>Deleted text using del tag.</del></li>
+    <li><ins>Inserted text using ins tag</ins></li>
+    <li><sub>Subscripted text using sub tag.</sub>AMAN</li>
+    <li><sup>Superscriped text using sup tag.</sup>AMAN</li>
+    <br />
+    <hr />
+    <br />
+    <h1>HTML Quotation:</h1>
+    <li>Use of abbr:</li>
+    <p>
+      Today i am learning <abbr title="hypertext markup language">HTML.</abbr>
+    </p>
+    <li>Use of blockquote:</li>
+    <blockquote cite="https://en.wikipedia.org/wiki/Bangladesh">
+      Bangladesh, officially the People's Republic of Bangladesh, is a country
+      in South Asia. It is the eighth most populous country in the world and is
+      among the most densely populated countries, with a population of around
+      170 million in an area of 148,460 square kilometres (57,320 sq mi).
+      Bangladesh shares land borders with India to the west, north, and east,
+      and Myanmar to the southeast; to the south it has a coastline along the
+      Bay of Bengal. It is narrowly separated from Bhutan and Nepal by the
+      Siliguri Corridor; and from China by the Indian state of Sikkim in the
+      north. Dhaka, the capital and largest city, is the nation's political,
+      financial and cultural centre. Chittagong, the second-largest city, is the
+      busiest port on the Bay of Bengal. The official language is Bengali.
+    </blockquote>
+    <li>Use of Quotation:</li>
+    <p>Taijul's goal is to :<q>Become a good developer in future.</q></p>
+    <li>Use of address:</li>
+    <address>
+      Written by: <br />
+      Md Shah Aman Patwary. <br />
+      Mail:mdshahamanpatwary@gmail.com <br />
+      Mobile:01956729315 <br />
+      Dhaka,Bangladesh.
+    </address>
+    <li>Use of cite:</li>
+    <p><cite>National Anthem</cite>by Rabindranath Tagore in 1905.</p>
+    <li>Use of bdo:</li>
+    <bdo dir="rtl">This text will be written from right to left</bdo>
+    <hr />
+    <h1>HTML bookmark:</h1>
+    <a href="#C4">create bookmark for chapter 4</a>
+    <a href="chapter4.html#C4">Jump to Chapter 4</a>
+    <hr />
+    <h1>Image Map:</h1>
+    <img src="../workplace.jpg" alt="Workplace" usemap="#workmap" />
+    <map name="workmap">
+      <area
+        shape="rect"
+        coords="34,44,270,350"
+        alt="Computer"
+        href="https://github.com/TAIJULAMAN"
+      />
+      <area
+        shape="rect"
+        coords="290,172,333,250"
+        alt="Phone"
+        href="https://react.keepdesign.io/docs/getting-started/introduction"
+      />
+      <area
+        shape="circle"
+        coords="337,300,44"
+        alt="Coffee"
+        href="https://headlessui.com/"
+      />
+    </map>
+    <hr />
+    <h1>HTML TABLE ELEMENT:</h1>
+    <table style="width: 100%">
+      <colgroup>
+        <col span="2" style="background-color: cornflowerblue" />
+      </colgroup>
+
+      <tr>
+        <th>MON</th>
+        <th>TUE</th>
+        <th>WED</th>
+        <th>THU</th>
+        <th>FRI</th>
+        <th>SAT</th>
+        <th>SUN</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <br />
+    <hr />
+    <h1>HTML list Items:</h1>
+    <h3>orderes list:</h3>
+    <ol>
+      <li>a</li>
+      <li>b</li>
+      <li>c</li>
+      <li>d</li>
+      <li>e</li>
+    </ol>
+    <h3>unorderes list:</h3>
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+    <li>d</li>
+    <li>e</li>
+    <hr />
+    <h1>HTML Description List:</h1>
+    <dl>
+      <dt>soup</dt>
+      <dd>a thai food</dd>
+      <dt>pizza</dt>
+      <dd>an italian food</dd>
+    </dl>
+  </body>
+</html>
