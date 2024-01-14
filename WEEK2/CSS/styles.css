@@ -1,0 +1,112 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.all-div {
+  display: flex;
+  background-color: aqua;
+}
+.header {
+  text-align: center;
+  justify-content: center;
+  border: 1px solid blueviolet;
+}
+.design {
+  height: 120px;
+  width: 30%;
+  padding: 5px 10px;
+  text-align: center;
+  background-color: darkslategrey;
+  margin: 10px 10px;
+  color: antiquewhite;
+  border-radius: 10px;
+}
+.one {
+  text-align: center;
+}
+.two {
+  text-align: left;
+}
+.three {
+  text-align: right;
+}
+.fourth {
+  background-color: aqua;
+  padding: 20px 10px;
+  font-weight: 900;
+  color: darkslategrey;
+}
+.picture {
+  color: red;
+  text-align: center;
+}
+.container {
+  position: relative;
+}
+.black-box {
+  position: relative;
+  height: 300px;
+  z-index: 1;
+  color: antiquewhite;
+  background-color: black;
+  margin: 30px;
+}
+.gray-box {
+  position: absolute;
+  z-index: 3; 
+  background: lightgray;
+  height: 60px;
+  width: 500px;
+  left: 50px;
+  top: 50px;
+}
+.green-box {
+  position: absolute;
+  z-index: 2;
+  background: lightgreen;
+  width: 200px;
+  height: 300px;
+  left: 270px;
+  top: -15px;
+}
+.overflow{
+   
+        background:mediumpurple;
+        color: white;
+        padding: 15px;
+        width: 50%;
+        height: 200px;
+        overflow: scroll;
+        border: 1px solid #ccc;
+    
+}
+.float-pic{
+    width:33%;
+    height:200px;
+    margin-right:15px;
+    float: left;
+}
+.float{
+    height: 250px;
+}
+.div1 {
+    float: left;
+    padding: 10px;
+    border: 3px solid #73AD21;
+  }
+  
+  .div2 {
+    padding: 10px;
+    border: 3px solid red;
+  }
+  
+  .div3 {
+    float: left;
+    padding: 10px;  
+    border: 3px solid #73AD21;
+  }
+  
+  .div4 {
+    padding: 10px;
+    border: 3px solid red;
+    clear: left;
+  }

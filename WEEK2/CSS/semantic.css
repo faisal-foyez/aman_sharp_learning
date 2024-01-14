@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
+  header {
+    background-color: lightcoral;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+  nav {
+    background: #ccc;
+    padding: 20px;
+  }
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    lighting-color: darkmagenta;
+    align-items: center;
+    justify-content: center;
+  }
+  nav ul li {
+    padding-left: 20px;
+  }
+  section{
+    height: 300px;
+    width: 100%;
+  }
+  aside {
+    float: left;
+    width: 25%;
+    background-color: coral;
+    height: 300px;
+    padding: 20px;
+    list-style: none;
+  }
+  article {
+    float: right;
+    padding: 20px 20px;
+    width: 75%;
+    background-color: chocolate;
+    height: 300px;
+  }
+
+  footer {
+    background-color: #777;
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+  }

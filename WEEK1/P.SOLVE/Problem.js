@@ -39,3 +39,12 @@ for(let i=5;i>=1;i--){
     }
     console.log(row4);
 }
+
+const n = 5;
+const array = [];
+
+for (let i = 0; i < n; i++) {
+    array.push(i);
+}
+
+console.log(array);
