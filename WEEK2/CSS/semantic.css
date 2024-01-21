@@ -21,8 +21,17 @@
   }
   nav ul li {
     padding-left: 20px;
+    font-weight: 900;
+    font-size: larger;
   }
-  section{
+  nav ul li a{
+    text-decoration: none;
+        }
+  nav ul li a:hover{
+color: maroon;
+text-decoration: underline;
+  }
+ section{
     height: 300px;
     width: 100%;
   }
@@ -41,10 +50,10 @@
     background-color: chocolate;
     height: 300px;
   }
-
   footer {
     background-color: #777;
     padding: 10px 10px;
     text-align: center;
     color: white;
   }
+  
